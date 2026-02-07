@@ -6,22 +6,21 @@ export default function Contact() {
   const { t } = useLanguage();
 
   return (
-    <section id="contact" className="py-24 lg:py-32 bg-white">
+    <section id="contact" className="py-24 lg:py-32 bg-stone-50">
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 mb-4">
             {t.contact.title}
           </h2>
-          <p className="text-lg text-zinc-600 mb-12">{t.contact.subtitle}</p>
+          <p className="text-lg text-zinc-500 mb-12">{t.contact.subtitle}</p>
 
-          {/* Social Links */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            {/* LinkedIn */}
+          {/* Main CTA */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
             <a
               href="https://www.linkedin.com/in/jurajgiacko/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-zinc-900 text-white rounded-xl font-medium hover:bg-zinc-700 transition-all duration-300 hover:shadow-lg"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-zinc-900 text-white rounded-2xl font-medium hover:bg-zinc-700 transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5"
             >
               <svg
                 className="w-5 h-5"
@@ -33,12 +32,11 @@ export default function Contact() {
               LinkedIn
             </a>
 
-            {/* GitHub */}
             <a
               href="https://github.com/jurajgiacko"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 border border-zinc-300 text-zinc-700 rounded-xl font-medium hover:border-zinc-400 hover:bg-zinc-50 transition-all duration-300"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 border-2 border-zinc-200 text-zinc-700 rounded-2xl font-medium hover:border-zinc-300 hover:bg-white transition-all duration-300"
             >
               <svg
                 className="w-5 h-5"
@@ -51,36 +49,21 @@ export default function Contact() {
             </a>
           </div>
 
-          {/* Email */}
-          <div className="inline-flex items-center gap-2 text-zinc-500">
-            <svg
-              className="w-4 h-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-              />
-            </svg>
-            <span className="text-sm">juraj@juraj.digital</span>
-          </div>
+          {/* Casual email line */}
+          <p className="text-zinc-400 text-sm">
+            juraj@juraj.digital
+          </p>
         </div>
       </div>
 
       {/* Footer */}
-      <footer className="mt-24 pt-8 border-t border-zinc-200">
+      <footer className="mt-20 pt-8 border-t border-zinc-200/50">
         <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-zinc-400">
-            &copy; {new Date().getFullYear()} Juraj Giacko.{" "}
-            {t.footer.rights}
+            &copy; {new Date().getFullYear()} Juraj Giacko
           </p>
-          <p className="text-sm text-zinc-400">
-            {t.footer.built_with}{" "}
-            <span className="font-mono text-zinc-500">Cursor + Next.js</span>
+          <p className="text-sm text-zinc-400 font-mono">
+            {t.footer.built_with} Cursor + Next.js
           </p>
         </div>
       </footer>

@@ -3,58 +3,58 @@ import { Translations } from "@/types";
 export const translations: Record<"sk" | "en", Translations> = {
   sk: {
     nav: {
-      about: "O mne",
-      experience: "Skúsenosti",
+      about: "Svet",
+      experience: "Pr\u00edbeh",
       projects: "Projekty",
       contact: "Kontakt",
     },
     hero: {
-      greeting: "Ahoj, som",
+      greeting: "",
       name: "Juraj Giacko",
       tagline: "Business \u00d7 Sport \u00d7 AI",
       subtitle:
-        "Transformujem biznisy, riadim športové značky a budujem s AI. CEO VITAR Sport | 15+ rokov v e-commerce a leadershipe.",
-      cta_projects: "Moje projekty",
-      cta_contact: "Kontakt",
+        "Riadim \u0161portov\u00e9 zna\u010dky, transform\u00e1jem biznisy a budujem n\u00e1stroje s AI. Aktu\u00e1lne CEO VITAR Sport.",
+      cta_projects: "Pozri \u010do staviam",
+      cta_contact: "Ozvi sa",
     },
     about: {
-      title: "Tri piliere",
-      bio: "Som executive director so zázemím v e-commerce, FMCG a športovom priemysle. Verím v jednoduchý princíp: Turnaround first. Scale second. Technológie nasadzujem tam, kde reálne hýbu výsledkami.",
+      title: "M\u00f4j svet",
+      bio: "",
       pillars: {
         business: {
-          title: "Business & Management",
+          title: "Biznisov\u00fd oper\u00e1tor",
           description:
-            "Full P&L zodpovednosť, vedenie tímov 10-15+ ľudí, turnaround a škálovanie biznisovcez finance, sales a operations.",
+            "CEO VITAR Sport. \u0160k\u00e1lujem ENERVIT na CZ&SK trhoch. Predtým Alza, GymBeam, EXIsport. 15+ rokov v e-commerce a leadershipe s full P&L zodpovednos\u0165ou.",
         },
         sport: {
-          title: "Šport",
+          title: "\u0160portov\u00fd \u010dlov\u00e9k",
           description:
-            "CEO VITAR Sport, škálovanie ENERVIT na CZ&SK trhoch. Predtým Alza Sport, GymBeam, EXIsport. Šport je nielen práca, ale aj životný štýl.",
+            "\u0160port nie je len pr\u00e1ca \u2014 je to \u017eivotn\u00fd \u0161t\u00fdl. Beh, fitness, Ji\u017eersk\u00e1 50. Riadim \u0161portov\u00e9 zna\u010dky, preto\u017ee im rozumiem ako pou\u017e\u00edvate\u013e aj ako mana\u017e\u00e9r.",
         },
         ai: {
-          title: "AI & Tech",
+          title: "AI builder",
           description:
-            "AI-enabled operations v praxi. Automatizácie, dashboardy, vibe coding interných nástrojov. DONE > PERFECT.",
+            "Stav\u00e1m intern\u00e9 n\u00e1stroje, automatiz\u00e1cie a dashboardy. Vibe coding je m\u00f4j sp\u00f4sob ako r\u00fdchlo rie\u0161i\u0165 probl\u00e9my. DONE > PERFECT.",
         },
       },
       stats: {
         years: "rokov v leadershipe",
         projects: "AI projektov",
-        brands: "značiek v porte",
+        brands: "zna\u010diek v porte",
       },
     },
     experience: {
-      title: "Kariéra",
-      present: "súčasnosť",
+      title: "Pr\u00edbeh",
+      present: "s\u00fa\u010dasnos\u0165",
     },
     projects: {
-      title: "Čo som postavil s AI",
+      title: "\u010co som postavil s AI",
       subtitle:
-        "Interné nástroje, aplikácie a utility, ktoré reálne používam. Žiadne demo projekty \u2014 každý rieši konkrétny problém.",
-      filter_all: "Všetko",
+        "Intern\u00e9 n\u00e1stroje, aplik\u00e1cie a utility, ktor\u00e9 re\u00e1lne pou\u017e\u00edvam. Ka\u017ed\u00fd rie\u0161i konkr\u00e9tny probl\u00e9m.",
+      filter_all: "V\u0161etko",
       categories: {
-        "internal-tool": "Interné nástroje",
-        app: "Aplikácie",
+        "internal-tool": "Intern\u00e9 n\u00e1stroje",
+        app: "Aplik\u00e1cie",
         game: "Hry",
         utility: "Utility",
         web: "Weby",
@@ -62,58 +62,58 @@ export const translations: Record<"sk" | "en", Translations> = {
       status: {
         live: "Live",
         prototype: "Prototyp",
-        internal: "Interné",
-        archived: "Archív",
+        internal: "Intern\u00e9",
+        archived: "Arch\u00edv",
       },
-      view_project: "Otvoriť",
-      view_code: "Kód",
+      view_project: "Otvori\u0165",
+      view_code: "K\u00f3d",
     },
     contact: {
       title: "Spojme sa",
       subtitle:
-        "Či už ide o spoluprácu, konzultáciu, alebo len výmenu nápadov \u2014 ozvite sa.",
+        "Spolupr\u00e1ca, konzult\u00e1cia, alebo len v\u00fdmena n\u00e1padov \u2014 ozvite sa.",
       email_label: "Email",
-      connect: "Napíšte mi",
+      connect: "Nap\u00ed\u0161te mi",
     },
     footer: {
-      built_with: "Postavené s AI pomocou",
-      rights: "Všetky práva vyhradené.",
+      built_with: "Postaven\u00e9 s AI pomocou",
+      rights: "V\u0161etky pr\u00e1va vyhraden\u00e9.",
     },
   },
   en: {
     nav: {
-      about: "About",
-      experience: "Experience",
+      about: "World",
+      experience: "Story",
       projects: "Projects",
       contact: "Contact",
     },
     hero: {
-      greeting: "Hi, I'm",
+      greeting: "",
       name: "Juraj Giacko",
       tagline: "Business \u00d7 Sport \u00d7 AI",
       subtitle:
-        "I transform businesses, lead sports brands, and build with AI. CEO of VITAR Sport | 15+ years in e-commerce & leadership.",
-      cta_projects: "My Projects",
-      cta_contact: "Contact",
+        "I run sports brands, turn around businesses, and build tools with AI. Currently CEO of VITAR Sport.",
+      cta_projects: "See what I\u2019m building",
+      cta_contact: "Say hi",
     },
     about: {
-      title: "Three Pillars",
-      bio: "I'm an executive director with a background in e-commerce, FMCG, and the sports industry. I believe in a simple principle: Turnaround first. Scale second. I deploy technology where it actually moves the needle.",
+      title: "My World",
+      bio: "",
       pillars: {
         business: {
-          title: "Business & Management",
+          title: "Business Operator",
           description:
-            "Full P&L accountability, leading teams of 10-15+ people, turning around and scaling businesses across finance, sales, and operations.",
+            "CEO of VITAR Sport. Scaling ENERVIT across CZ&SK markets. Previously Alza, GymBeam, EXIsport. 15+ years in e-commerce & leadership with full P&L accountability.",
         },
         sport: {
-          title: "Sport",
+          title: "Sports Person",
           description:
-            "CEO of VITAR Sport, scaling ENERVIT across CZ&SK markets. Previously Alza Sport, GymBeam, EXIsport. Sport is not just work \u2014 it's a lifestyle.",
+            "Sport isn\u2019t just work \u2014 it\u2019s a lifestyle. Running, fitness, Jizerska 50. I manage sports brands because I understand them as a user and as a manager.",
         },
         ai: {
-          title: "AI & Tech",
+          title: "AI Builder",
           description:
-            "AI-enabled operations in practice. Automations, dashboards, vibe coding internal tools. DONE > PERFECT.",
+            "I build internal tools, automations, and dashboards. Vibe coding is my way to solve problems fast. DONE > PERFECT.",
         },
       },
       stats: {
@@ -123,13 +123,13 @@ export const translations: Record<"sk" | "en", Translations> = {
       },
     },
     experience: {
-      title: "Career",
+      title: "Story",
       present: "present",
     },
     projects: {
-      title: "What I\u2019ve Built with AI",
+      title: "What I\u2019m building with AI",
       subtitle:
-        "Internal tools, apps, and utilities I actually use. No demo projects \u2014 every single one solves a real problem.",
+        "Internal tools, apps, and utilities I actually use. Each one solves a real problem.",
       filter_all: "All",
       categories: {
         "internal-tool": "Internal Tools",
@@ -148,9 +148,9 @@ export const translations: Record<"sk" | "en", Translations> = {
       view_code: "Code",
     },
     contact: {
-      title: "Let\u2019s Connect",
+      title: "Let\u2019s connect",
       subtitle:
-        "Whether it's a collaboration, consultation, or just exchanging ideas \u2014 reach out.",
+        "Collaboration, consultation, or just exchanging ideas \u2014 reach out.",
       email_label: "Email",
       connect: "Get in touch",
     },
@@ -161,139 +161,77 @@ export const translations: Record<"sk" | "en", Translations> = {
   },
 };
 
-export const experiences = {
+// Career journey - not a CV, just key chapters
+export const storyChapters = {
   sk: [
     {
-      company: "VITAR, s.r.o.",
-      role: "CEO VITAR Sport & Director of Digital Growth",
-      period: "Sep 2025",
-      current: true,
-      description:
-        "Full P&L zodpovednosť za športovú divíziu. Škálovanie ENERVIT na CZ&SK trhoch. AI-enabled operations, nové biznis modely, digitálna transformácia.",
-      highlights: [
-        "Športová výživa & lifestyle kategórie",
-        "AI automatizácie v operations",
-        "Cross-border digitálna expanzia",
-      ],
+      year: "2025\u2013",
+      title: "CEO VITAR Sport",
+      description: "\u0160k\u00e1lujem ENERVIT. AI-enabled operations. \u0160portov\u00e1 v\u00fd\u017eiva & lifestyle.",
     },
     {
-      company: "REDA a.s.",
-      role: "Director of E-commerce Marketing",
-      period: "Dec 2020 \u2013 Jun 2025",
-      current: false,
-      description:
-        "E-commerce stratégia a implementácia. 20%+ YoY rast online tri roky po sebe. Digitalizácia spoločnosti v Brazílii a Európe.",
-      highlights: [
-        "20%+ YoY rast online",
-        "Vedenie e-commerce a SMB sales tímu",
-        "Digitalizácia naprieč Brazíliou a Európou",
-      ],
+      year: "2020\u20132025",
+      title: "REDA",
+      description: "4.5 roka. E-commerce director. 20%+ YoY rast tri roky po sebe. Braz\u00edlia a Eur\u00f3pa.",
     },
     {
-      company: "Alza.cz",
-      role: "Head of Traffic Management",
-      period: "Nov 2019 \u2013 Oct 2020",
-      current: false,
-      description:
-        "Vedenie 12-členného tímu. Správa segmentov Beauty, Drugstore a Sport ako ich CMO. Výrazný YoY rast vo všetkých segmentoch.",
-      highlights: [
-        "Drugstore: +85% YoY",
-        "Sport: +65% YoY",
-        "Beauty: +25% YoY",
-      ],
+      year: "2019\u20132020",
+      title: "Alza.cz",
+      description: "Sport +65% YoY. Drugstore +85% YoY. T\u00edm 12 \u013eud\u00ed.",
     },
     {
-      company: "GymBeam",
-      role: "Interim COO",
-      period: "May \u2013 Sep 2019",
-      current: false,
-      description:
-        "Vedenie 7-členného business tímu počas sabbatical leave manažéra. Nákup tovaru s budgetom 1M EUR. Vendor marketing stratégia.",
-      highlights: [
-        "Budget nákupu 1M EUR",
-        "Nová vendor marketing stratégia",
-        "Osobný rozvoj tímu",
-      ],
+      year: "2019",
+      title: "GymBeam",
+      description: "Interim COO. 1M\u20ac budget. 7-\u010dlenn\u00fd t\u00edm.",
     },
     {
-      company: "EXIsport",
-      role: "Head of E-commerce",
-      period: "May 2017 \u2013 Mar 2019",
-      current: false,
-      description:
-        "E-commerce pre slovenský trh. Expanzia do Česka a Rumunska \u2014 prvé trhy, na ktoré EXIsport expandoval. Víťaz MastersGate 2018.",
-      highlights: [
-        "65% YoY rast revenue",
-        "Expanzia CZ & RO",
-        "Víťaz MastersGate 2018",
-      ],
+      year: "2017\u20132019",
+      title: "EXIsport",
+      description: "65% YoY rast. Expanzia CZ & RO. V\u00ed\u0165az MastersGate 2018.",
     },
   ],
   en: [
     {
-      company: "VITAR, s.r.o.",
-      role: "CEO VITAR Sport & Director of Digital Growth",
-      period: "Sep 2025",
-      current: true,
-      description:
-        "Full P&L responsibility for the sports division. Scaling ENERVIT across CZ&SK markets. AI-enabled operations, new business models, digital transformation.",
-      highlights: [
-        "Sports nutrition & lifestyle categories",
-        "AI automations in operations",
-        "Cross-border digital expansion",
-      ],
+      year: "2025\u2013",
+      title: "CEO VITAR Sport",
+      description: "Scaling ENERVIT. AI-enabled ops. Sports nutrition & lifestyle.",
     },
     {
-      company: "REDA a.s.",
-      role: "Director of E-commerce Marketing",
-      period: "Dec 2020 \u2013 Jun 2025",
-      current: false,
-      description:
-        "E-commerce strategy and implementation. 20%+ YoY growth online for three consecutive years. Company digitalization across Brazil and Europe.",
-      highlights: [
-        "20%+ YoY online growth",
-        "Led e-commerce and SMB sales team",
-        "Digitalization across Brazil & Europe",
-      ],
+      year: "2020\u20132025",
+      title: "REDA",
+      description: "4.5 years. E-commerce director. 20%+ YoY growth three years running. Brazil & Europe.",
     },
     {
-      company: "Alza.cz",
-      role: "Head of Traffic Management",
-      period: "Nov 2019 \u2013 Oct 2020",
-      current: false,
-      description:
-        "Led a 12-person team managing Beauty, Drugstore, and Sport segments as their CMO. Achieved significant YoY growth across all segments.",
-      highlights: [
-        "Drugstore: +85% YoY",
-        "Sport: +65% YoY",
-        "Beauty: +25% YoY",
-      ],
+      year: "2019\u20132020",
+      title: "Alza.cz",
+      description: "Sport +65% YoY. Drugstore +85% YoY. 12-person team.",
     },
     {
-      company: "GymBeam",
-      role: "Interim COO",
-      period: "May \u2013 Sep 2019",
-      current: false,
-      description:
-        "Led a 7-member business team during manager's sabbatical. Responsible for goods procurement with a 1M EUR budget. Built vendor marketing strategy.",
-      highlights: [
-        "1M EUR procurement budget",
-        "New vendor marketing strategy",
-        "Team personal development",
-      ],
+      year: "2019",
+      title: "GymBeam",
+      description: "Interim COO. \u20ac1M budget. 7-person team.",
     },
     {
-      company: "EXIsport",
-      role: "Head of E-commerce",
-      period: "May 2017 \u2013 Mar 2019",
-      current: false,
-      description:
-        "E-commerce for the Slovak market. Expansion to Czechia and Romania \u2014 the first markets EXIsport expanded to. MastersGate 2018 winner.",
-      highlights: [
-        "65% YoY revenue growth",
-        "CZ & RO expansion",
-        "MastersGate 2018 winner",
-      ],
+      year: "2017\u20132019",
+      title: "EXIsport",
+      description: "65% YoY growth. CZ & RO expansion. MastersGate 2018 winner.",
     },
+  ],
+};
+
+export const beliefs = {
+  sk: [
+    "Turnaround first. Scale second.",
+    "DONE > PERFECT.",
+    "\u0160port nie je len pr\u00e1ca \u2014 je to \u017eivotn\u00fd \u0161t\u00fdl.",
+    "AI nasadzujem tam, kde re\u00e1lne h\u00fdbe v\u00fdsledkami.",
+    "Najlep\u0161\u00ed mana\u017e\u00e9r je ten, ktor\u00fd vie odma\u010dka\u0165 veci aj s\u00e1m.",
+  ],
+  en: [
+    "Turnaround first. Scale second.",
+    "DONE > PERFECT.",
+    "Sport isn\u2019t just work \u2014 it\u2019s a lifestyle.",
+    "I deploy AI where it actually moves the needle.",
+    "The best manager is the one who can roll up their sleeves too.",
   ],
 };

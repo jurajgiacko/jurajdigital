@@ -37,33 +37,37 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="relative py-24 lg:py-32">
-      {/* Dark background for the "tech" vibe */}
+    <section id="projects" className="relative py-24 lg:py-32 overflow-hidden">
+      {/* Dark background */}
       <div className="absolute inset-0 bg-zinc-950" />
 
-      {/* Subtle dot grid pattern */}
+      {/* Animated gradient orbs */}
+      <div className="absolute top-20 -left-32 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl" />
+      <div className="absolute bottom-20 -right-32 w-96 h-96 bg-violet-500/10 rounded-full blur-3xl" />
+
+      {/* Dot grid */}
       <div
-        className="absolute inset-0 opacity-[0.07]"
+        className="absolute inset-0 opacity-[0.04]"
         style={{
           backgroundImage: `radial-gradient(circle, #fff 1px, transparent 1px)`,
           backgroundSize: "24px 24px",
         }}
       />
 
-      {/* Top transition gradient */}
-      <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-zinc-50 to-zinc-950" />
+      {/* Top transition */}
+      <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-white to-transparent" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 text-emerald-400 font-mono text-sm mb-4">
+          <div className="inline-flex items-center gap-2 text-emerald-400 font-mono text-sm mb-6 bg-emerald-500/10 px-4 py-2 rounded-full">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span>vibe-coded</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl sm:text-5xl font-bold text-white mb-4">
             {t.projects.title}
           </h2>
-          <p className="text-zinc-400 max-w-xl mx-auto">
+          <p className="text-zinc-400 max-w-xl mx-auto text-lg">
             {t.projects.subtitle}
           </p>
         </div>
@@ -74,10 +78,10 @@ export default function Projects() {
             <button
               key={filter.key}
               onClick={() => setActiveFilter(filter.key)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+              className={`px-5 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 ${
                 activeFilter === filter.key
-                  ? "bg-white text-zinc-900"
-                  : "bg-zinc-800/50 text-zinc-400 hover:text-white hover:bg-zinc-800 border border-zinc-800"
+                  ? "bg-white text-zinc-900 shadow-lg"
+                  : "text-zinc-400 hover:text-white hover:bg-zinc-800/50"
               }`}
             >
               {filter.label}
@@ -86,7 +90,7 @@ export default function Projects() {
         </div>
 
         {/* Project Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {filteredProjects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
@@ -95,14 +99,13 @@ export default function Projects() {
         {/* Project Count */}
         <div className="text-center mt-12">
           <p className="text-zinc-600 font-mono text-sm">
-            {filteredProjects.length} / {projects.length}{" "}
-            {t.projects.filter_all.toLowerCase()}
+            {filteredProjects.length} / {projects.length}
           </p>
         </div>
       </div>
 
-      {/* Bottom transition gradient */}
-      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-zinc-950" />
+      {/* Bottom transition */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-stone-50 to-transparent" />
     </section>
   );
 }

@@ -1,130 +1,109 @@
 "use client";
 
 import { useLanguage } from "./LanguageProvider";
-
-const pillarIcons = {
-  business: (
-    <svg
-      className="w-8 h-8"
-      fill="none"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={1.5}
-        d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
-      />
-    </svg>
-  ),
-  sport: (
-    <svg
-      className="w-8 h-8"
-      fill="none"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={1.5}
-        d="M13 10V3L4 14h7v7l9-11h-7z"
-      />
-    </svg>
-  ),
-  ai: (
-    <svg
-      className="w-8 h-8"
-      fill="none"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={1.5}
-        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-      />
-    </svg>
-  ),
-};
+import { storyChapters, beliefs } from "@/data/translations";
 
 export default function About() {
-  const { t } = useLanguage();
-
-  const pillars = [
-    {
-      key: "business" as const,
-      icon: pillarIcons.business,
-      ...t.about.pillars.business,
-    },
-    {
-      key: "sport" as const,
-      icon: pillarIcons.sport,
-      ...t.about.pillars.sport,
-    },
-    { key: "ai" as const, icon: pillarIcons.ai, ...t.about.pillars.ai },
-  ];
+  const { language, t } = useLanguage();
+  const chapters = storyChapters[language];
+  const myBeliefs = beliefs[language];
 
   return (
     <section id="about" className="py-24 lg:py-32 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 mb-6">
-            {t.about.title}
-          </h2>
-          <p className="text-lg text-zinc-600 leading-relaxed max-w-2xl mx-auto">
-            {t.about.bio}
-          </p>
+        <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 mb-16 text-center">
+          {t.about.title}
+        </h2>
+
+        {/* Three Pillars - now as big visual cards */}
+        <div className="grid md:grid-cols-3 gap-6 mb-24">
+          {/* Business */}
+          <div className="group relative bg-zinc-900 text-white rounded-3xl p-8 overflow-hidden hover:-translate-y-1 transition-all duration-300 hover:shadow-xl">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-bl-[80px]" />
+            <div className="text-4xl mb-4">&#9878;&#65039;</div>
+            <h3 className="text-xl font-bold mb-3">
+              {t.about.pillars.business.title}
+            </h3>
+            <p className="text-zinc-400 leading-relaxed text-sm">
+              {t.about.pillars.business.description}
+            </p>
+          </div>
+
+          {/* Sport */}
+          <div className="group relative bg-emerald-600 text-white rounded-3xl p-8 overflow-hidden hover:-translate-y-1 transition-all duration-300 hover:shadow-xl">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-bl-[80px]" />
+            <div className="text-4xl mb-4">&#9889;</div>
+            <h3 className="text-xl font-bold mb-3">
+              {t.about.pillars.sport.title}
+            </h3>
+            <p className="text-emerald-100 leading-relaxed text-sm">
+              {t.about.pillars.sport.description}
+            </p>
+          </div>
+
+          {/* AI */}
+          <div className="group relative bg-violet-600 text-white rounded-3xl p-8 overflow-hidden hover:-translate-y-1 transition-all duration-300 hover:shadow-xl">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-bl-[80px]" />
+            <div className="text-4xl mb-4">&#129302;</div>
+            <h3 className="text-xl font-bold mb-3">
+              {t.about.pillars.ai.title}
+            </h3>
+            <p className="text-violet-100 leading-relaxed text-sm">
+              {t.about.pillars.ai.description}
+            </p>
+          </div>
         </div>
 
-        {/* Three Pillars */}
-        <div className="grid md:grid-cols-3 gap-8 mb-20">
-          {pillars.map((pillar) => (
-            <div
-              key={pillar.key}
-              className="group p-8 rounded-2xl border border-zinc-200 hover:border-zinc-300 hover:shadow-lg transition-all duration-300 bg-white"
-            >
-              <div className="w-14 h-14 rounded-xl bg-zinc-100 text-zinc-600 flex items-center justify-center mb-6 group-hover:bg-zinc-900 group-hover:text-white transition-all duration-300">
-                {pillar.icon}
+        {/* Career Journey - compact, not CV-like */}
+        <div id="experience" className="mb-24">
+          <h3 className="text-xl font-semibold text-zinc-900 mb-8 text-center">
+            {t.experience.title}
+          </h3>
+          <div className="flex flex-wrap justify-center gap-3">
+            {chapters.map((chapter, i) => (
+              <div
+                key={i}
+                className={`group relative px-5 py-3 rounded-2xl border transition-all duration-300 hover:shadow-md cursor-default ${
+                  i === 0
+                    ? "bg-zinc-900 text-white border-zinc-900"
+                    : "bg-white text-zinc-700 border-zinc-200 hover:border-zinc-300"
+                }`}
+              >
+                <div className="flex items-center gap-3">
+                  <span
+                    className={`text-xs font-mono ${i === 0 ? "text-zinc-400" : "text-zinc-400"}`}
+                  >
+                    {chapter.year}
+                  </span>
+                  <span className="font-semibold text-sm">{chapter.title}</span>
+                </div>
+                {/* Tooltip on hover */}
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-4 py-2 bg-zinc-900 text-white text-xs rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap shadow-lg z-20">
+                  {chapter.description}
+                  <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-1 w-2 h-2 bg-zinc-900 rotate-45" />
+                </div>
               </div>
-              <h3 className="text-xl font-semibold text-zinc-900 mb-3">
-                {pillar.title}
-              </h3>
-              <p className="text-zinc-600 leading-relaxed">
-                {pillar.description}
-              </p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
-        {/* Stats */}
-        <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
-          <div className="text-center">
-            <div className="text-4xl sm:text-5xl font-bold text-zinc-900 mb-2">
-              15+
-            </div>
-            <div className="text-sm text-zinc-500 uppercase tracking-wider">
-              {t.about.stats.years}
-            </div>
-          </div>
-          <div className="text-center">
-            <div className="text-4xl sm:text-5xl font-bold text-zinc-900 mb-2">
-              10+
-            </div>
-            <div className="text-sm text-zinc-500 uppercase tracking-wider">
-              {t.about.stats.projects}
-            </div>
-          </div>
-          <div className="text-center">
-            <div className="text-4xl sm:text-5xl font-bold text-zinc-900 mb-2">
-              6+
-            </div>
-            <div className="text-sm text-zinc-500 uppercase tracking-wider">
-              {t.about.stats.brands}
-            </div>
+        {/* Beliefs / Philosophy - personal touch */}
+        <div className="max-w-2xl mx-auto">
+          <div className="flex flex-col gap-4">
+            {myBeliefs.map((belief, i) => (
+              <div
+                key={i}
+                className="flex items-start gap-4 group"
+              >
+                <span className="text-zinc-300 font-mono text-sm mt-0.5 shrink-0">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <p className="text-lg text-zinc-600 group-hover:text-zinc-900 transition-colors font-medium">
+                  {belief}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
