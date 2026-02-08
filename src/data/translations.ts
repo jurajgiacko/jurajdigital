@@ -14,7 +14,7 @@ export const translations: Record<"sk" | "en", Translations> = {
       tagline: "Business \u00d7 Sport \u00d7 AI",
       subtitle:
         "Transformujem biznisy. Budujem efekt\u00edvne t\u00edmy. Staviam veci s AI. CEO s builder mindsetom.",
-      cta_projects: "\u010co som postavil",
+      cta_projects: "Moje AI buildy",
       cta_contact: "Zosta\u0148 v kontakte",
     },
     about: {
@@ -22,9 +22,9 @@ export const translations: Record<"sk" | "en", Translations> = {
       bio: "",
       pillars: {
         business: {
-          title: "Biznisov\u00fd oper\u00e1tor",
+          title: "Business Operator",
           description:
-            "V\u00fdsledky stav\u00e1m na \u013eu\u010foch. Turnaround, \u0161k\u00e1lovanie, efekt\u00edvne t\u00edmy \u2014 v\u017edy to za\u010d\u00edna aj kon\u010d\u00ed pri spr\u00e1vnych \u013eu\u010foch na spr\u00e1vnych miestach. ENERVIT, Alza, GymBeam, EXIsport. 15 rokov v z\u00e1kopoch e-commerce.",
+            "Výsledky stavám na ľuďoch, procesoch a rozumnej miere AI automatizácie. Turnaround, škálovanie, efektívne tímy — vždy je to o tom nájsť správne ekvilibrium, čo daný projekt vyžaduje. ENERVIT, Alza, GymBeam, EXIsport. 10+ rokov v zákopoch manažmentu a 16+ rokov v e-commerce.",
         },
         sport: {
           title: "Sport focus",
@@ -48,10 +48,12 @@ export const translations: Record<"sk" | "en", Translations> = {
       present: "s\u00fa\u010dasnos\u0165",
     },
     projects: {
-      title: "Postaven\u00e9 s AI",
+      title: "Moje AI buildy",
       subtitle:
-        "\u017diadne dem\u00e1. Ka\u017ed\u00e1 vec tu rie\u0161i re\u00e1lny probl\u00e9m alebo prin\u00e1\u0161a re\u00e1lnu rados\u0165.",
-      filter_all: "V\u0161etko",
+        "Žiadne demá. Každá vec tu rieši reálny problém alebo prináša reálnu radosť.",
+      tech_note:
+        "Môj stack: Cursor, Claude Code, GitHub. Databázy: Supabase, Firebase. Hosting: Vercel. Ak riešiš technologický projekt s businessovým dopadom — spojme sa.",
+      filter_all: "Všetko",
       categories: {
         "internal-tool": "Intern\u00e9 n\u00e1stroje",
         app: "Aplik\u00e1cie",
@@ -93,7 +95,7 @@ export const translations: Record<"sk" | "en", Translations> = {
       tagline: "Business \u00d7 Sport \u00d7 AI",
       subtitle:
         "I transform businesses. I build effective teams. I build things with AI. CEO with a builder mindset.",
-      cta_projects: "What I\u2019ve built",
+      cta_projects: "My AI builds",
       cta_contact: "Stay in touch",
     },
     about: {
@@ -103,7 +105,7 @@ export const translations: Record<"sk" | "en", Translations> = {
         business: {
           title: "Business Operator",
           description:
-            "Results are built on people. Turnarounds, scaling, effective teams \u2014 it always starts and ends with the right people in the right seats. ENERVIT, Alza, GymBeam, EXIsport. 15 years in the trenches of e-commerce.",
+            "Results are built on people, processes, and a sensible dose of AI automation. Turnarounds, scaling, effective teams — it's always about finding the right equilibrium for the project at hand. ENERVIT, Alza, GymBeam, EXIsport. 10+ years in the trenches of management and 16+ years in e-commerce.",
         },
         sport: {
           title: "Sport Focus",
@@ -127,9 +129,11 @@ export const translations: Record<"sk" | "en", Translations> = {
       present: "present",
     },
     projects: {
-      title: "Built with AI",
+      title: "My AI Builds",
       subtitle:
         "No demos. Every single thing here solves a real problem or brings real joy.",
+      tech_note:
+        "My stack: Cursor, Claude Code, GitHub. Databases: Supabase, Firebase. Hosting: Vercel. If you're working on a tech project with real business impact — let's connect.",
       filter_all: "All",
       categories: {
         "internal-tool": "Internal Tools",

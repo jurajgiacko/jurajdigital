@@ -70,6 +70,7 @@ export interface Translations {
   projects: {
     title: string;
     subtitle: string;
+    tech_note: string;
     filter_all: string;
     categories: {
       "internal-tool": string;

@@ -71,8 +71,11 @@ export default function Projects() {
             <h2 className="text-3xl sm:text-5xl font-bold text-white mb-4">
               {t.projects.title}
             </h2>
-            <p className="text-zinc-400 max-w-xl mx-auto text-lg">
+            <p className="text-zinc-400 max-w-xl mx-auto text-lg mb-4">
               {t.projects.subtitle}
+            </p>
+            <p className="text-zinc-500 max-w-2xl mx-auto text-sm leading-relaxed">
+              {t.projects.tech_note}
             </p>
           </div>
 
