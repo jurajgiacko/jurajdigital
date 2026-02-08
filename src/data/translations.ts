@@ -24,17 +24,17 @@ export const translations: Record<"sk" | "en", Translations> = {
         business: {
           title: "Biznisov\u00fd oper\u00e1tor",
           description:
-            "Najprv stabilizova\u0165. Potom \u0161k\u00e1lova\u0165. P&L, KPI, WBR \u2014 nie PowerPointy, ale \u010d\u00edsla, ktor\u00e9 sa h\u00fdbu. ENERVIT, Alza, GymBeam, EXIsport. 15 rokov v z\u00e1kopoch e-commerce.",
+            "V\u00fdsledky stav\u00e1m na \u013eu\u010foch. Turnaround, \u0161k\u00e1lovanie, efekt\u00edvne t\u00edmy \u2014 v\u017edy to za\u010d\u00edna aj kon\u010d\u00ed pri spr\u00e1vnych \u013eu\u010foch na spr\u00e1vnych miestach. ENERVIT, Alza, GymBeam, EXIsport. 15 rokov v z\u00e1kopoch e-commerce.",
         },
         sport: {
           title: "\u0160portovec",
           description:
-            "\u0160port nie je len pr\u00e1ca \u2014 je to oper\u00e1k. Beh, fitness, Jizersk\u00e1 50. Riadim \u0161portov\u00e9 zna\u010dky, preto\u017ee im rozumiem z oboch str\u00e1n barikat\u00e1dy.",
+            "Bav\u00ed ma prepojenie businessu a \u0161portu. Aktu\u00e1lne ENERVIT a RoyalBay pre CZ&SK trh. A najlep\u0161ie na tom? Ke\u010f si v r\u00e1mci pr\u00e1ce m\u00f4\u017eem \u00eds\u0165 zabeha\u0165 alebo na bike.",
         },
         ai: {
           title: "AI builder",
           description:
-            "Ke\u010f m\u00e1m probl\u00e9m, postav\u00edm rie\u0161enie. Intern\u00e9 n\u00e1stroje, hry, dashboardy, automatiz\u00e1cie. V\u0161etko vibe-coded. DONE > PERFECT.",
+            "Vdaka AI a vibe codingu sa pos\u00favam 10\u00d7 r\u00fdchlej\u0161ie. N\u00e1pad r\u00e1no, prototyp ve\u010der. Intern\u00e9 n\u00e1stroje, hry, dashboardy, automatiz\u00e1cie. DONE > PERFECT.",
         },
       },
       stats: {
@@ -103,17 +103,17 @@ export const translations: Record<"sk" | "en", Translations> = {
         business: {
           title: "Business Operator",
           description:
-            "Turnaround first. Scale second. P&L, KPIs, WBR \u2014 not slide decks, but numbers that move. ENERVIT, Alza, GymBeam, EXIsport. 15 years in the trenches of e-commerce.",
+            "Results are built on people. Turnarounds, scaling, effective teams \u2014 it always starts and ends with the right people in the right seats. ENERVIT, Alza, GymBeam, EXIsport. 15 years in the trenches of e-commerce.",
         },
         sport: {
           title: "Athlete",
           description:
-            "Sport isn\u2019t just a job \u2014 it\u2019s the operating system. Running, fitness, Jizersk\u00e1 50. I manage sports brands because I understand them from both sides.",
+            "What I love is the intersection of business and sport. Currently ENERVIT and RoyalBay for the CZ&SK market. And the best part? Going for a run or a ride as part of the job.",
         },
         ai: {
           title: "AI Builder",
           description:
-            "When I have a problem, I build the solution. Internal tools, games, dashboards, automations. All vibe-coded. DONE > PERFECT.",
+            "Thanks to AI and vibe coding, I move 10\u00d7 faster. Idea in the morning, prototype by evening. Internal tools, games, dashboards, automations. DONE > PERFECT.",
         },
       },
       stats: {
@@ -223,15 +223,15 @@ export const beliefs = {
   sk: [
     "Najprv stabilizova\u0165. Potom \u0161k\u00e1lova\u0165.",
     "DONE > PERFECT.",
-    "\u0160port nie je pr\u00e1ca. \u0160port je operak.",
+    "Najlep\u0161\u00ed biznis je tam, kde sa \u0161port a pr\u00e1ca pret\u00ednaj\u00fa.",
     "AI nasadzujem tam, kde to h\u00fdbe \u010d\u00edslami. Nie tam, kde to vyzer\u00e1 cool.",
-    "Najlep\u0161\u00ed mana\u017e\u00e9r vie odma\u010dka\u0165 veci aj s\u00e1m.",
+    "Doba sa zmenila. V\u00fdhodou je mana\u017e\u00e9r, ktor\u00fd vie vyhrn\u00fa\u0165 ruk\u00e1vy \u2014 postavi\u0165 prototyp, vyrie\u0161i\u0165 probl\u00e9m, nie len delegova\u0165.",
   ],
   en: [
     "Turnaround first. Scale second.",
     "DONE > PERFECT.",
-    "Sport isn\u2019t a job. Sport is the operating system.",
+    "The best business lives where sport and work intersect.",
     "I deploy AI where it moves numbers. Not where it looks cool.",
-    "The best manager can roll up their sleeves too.",
+    "The game has changed. The edge goes to the manager who can roll up their sleeves \u2014 build a prototype, solve the problem, not just delegate.",
   ],
 };

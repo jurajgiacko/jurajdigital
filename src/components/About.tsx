@@ -16,7 +16,7 @@ export default function About() {
           {t.about.title}
         </h2>
 
-        {/* Three Pillars - now as big visual cards */}
+        {/* Three Pillars - big visual cards */}
         <div className="grid md:grid-cols-3 gap-6 mb-24">
           {/* Business */}
           <div className="group relative bg-zinc-900 text-white rounded-3xl p-8 overflow-hidden hover:-translate-y-1 transition-all duration-300 hover:shadow-xl">
@@ -30,18 +30,6 @@ export default function About() {
             </p>
           </div>
 
-          {/* Sport */}
-          <div className="group relative bg-emerald-600 text-white rounded-3xl p-8 overflow-hidden hover:-translate-y-1 transition-all duration-300 hover:shadow-xl">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-bl-[80px]" />
-            <div className="text-4xl mb-4">&#9889;</div>
-            <h3 className="text-xl font-bold mb-3">
-              {t.about.pillars.sport.title}
-            </h3>
-            <p className="text-emerald-100 leading-relaxed text-sm">
-              {t.about.pillars.sport.description}
-            </p>
-          </div>
-
           {/* AI */}
           <div className="group relative bg-violet-600 text-white rounded-3xl p-8 overflow-hidden hover:-translate-y-1 transition-all duration-300 hover:shadow-xl">
             <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-bl-[80px]" />
@@ -51,6 +39,18 @@ export default function About() {
             </h3>
             <p className="text-violet-100 leading-relaxed text-sm">
               {t.about.pillars.ai.description}
+            </p>
+          </div>
+
+          {/* Sport */}
+          <div className="group relative bg-emerald-600 text-white rounded-3xl p-8 overflow-hidden hover:-translate-y-1 transition-all duration-300 hover:shadow-xl">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-bl-[80px]" />
+            <div className="text-4xl mb-4">&#9889;</div>
+            <h3 className="text-xl font-bold mb-3">
+              {t.about.pillars.sport.title}
+            </h3>
+            <p className="text-emerald-100 leading-relaxed text-sm">
+              {t.about.pillars.sport.description}
             </p>
           </div>
         </div>
