@@ -54,8 +54,8 @@ export default function Projects() {
         }}
       />
 
-      {/* Top transition */}
-      <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-white to-transparent" />
+      {/* Top transition from Hero */}
+      <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-stone-50 to-transparent" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6">
         {/* Section Header */}
@@ -104,8 +104,8 @@ export default function Projects() {
         </div>
       </div>
 
-      {/* Bottom transition */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-stone-50 to-transparent" />
+      {/* Bottom transition to About */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
     </section>
   );
 }
