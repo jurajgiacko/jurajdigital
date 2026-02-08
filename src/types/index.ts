@@ -12,6 +12,7 @@ export interface Project {
   level: number; // 0-5 inspired by vibecoded.cz
   link?: string;
   github?: string;
+  image?: string; // path to screenshot in /public/images/projects/
   status: "live" | "prototype" | "internal" | "archived";
 }
 

@@ -73,7 +73,7 @@ export default function Nav() {
           </button>
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="w-8 h-8 flex flex-col items-center justify-center gap-1.5"
+            className="w-11 h-11 flex flex-col items-center justify-center gap-1.5"
             aria-label="Menu"
           >
             <span

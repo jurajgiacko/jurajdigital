@@ -13,6 +13,7 @@ export const projects: Project[] = [
     tech: ["HTML", "CSS", "JavaScript", "Canvas"],
     level: 2,
     link: "https://jiz50.enervit.online/",
+    image: "/images/projects/enervit-jiz50.png",
     status: "live",
   },
   {
@@ -26,6 +27,7 @@ export const projects: Project[] = [
     tech: ["HTML", "CSS", "JavaScript"],
     level: 2,
     link: "https://hawkinslab.juraj.digital/",
+    image: "/images/projects/hawkins-labs.png",
     status: "live",
   },
   {
@@ -39,6 +41,7 @@ export const projects: Project[] = [
     tech: ["HTML", "CSS", "JavaScript"],
     level: 2,
     link: "https://mucha.juraj.digital/",
+    image: "/images/projects/pivni-secese.png",
     status: "live",
   },
   {
@@ -52,6 +55,7 @@ export const projects: Project[] = [
     tech: ["HTML", "CSS", "JavaScript"],
     level: 3,
     link: "https://focus.vedici.gg/",
+    image: "/images/projects/vedici-focus.png",
     status: "live",
   },
 
@@ -80,6 +84,7 @@ export const projects: Project[] = [
     tech: ["HTML", "JavaScript", "Analytics"],
     level: 2,
     link: "https://qrkod.enervit.online/",
+    image: "/images/projects/qr-generator.png",
     status: "live",
   },
   {
@@ -93,6 +98,7 @@ export const projects: Project[] = [
     tech: ["JavaScript", "CalDAV", "Vercel"],
     level: 4,
     link: "https://2026rodinnysync.vercel.app",
+    image: "/images/projects/family-sync.png",
     status: "live",
   },
   {
