@@ -13,8 +13,8 @@ export const translations: Record<"sk" | "en", Translations> = {
       name: "Juraj Giacko",
       tagline: "Business \u00d7 Sport \u00d7 AI",
       subtitle:
-        "Riadim \u0161portov\u00e9 zna\u010dky, transform\u00e1jem biznisy a budujem n\u00e1stroje s AI. Aktu\u00e1lne CEO VITAR Sport.",
-      cta_projects: "Pozri \u010do staviam",
+        "Riadim \u0161portov\u00e9 zna\u010dky. Transformujem biznisy. Stav\u00e1m veci s AI. Aktu\u00e1lne CEO VITAR Sport.",
+      cta_projects: "\u010co som postavil",
       cta_contact: "Ozvi sa",
     },
     about: {
@@ -24,17 +24,17 @@ export const translations: Record<"sk" | "en", Translations> = {
         business: {
           title: "Biznisov\u00fd oper\u00e1tor",
           description:
-            "CEO VITAR Sport. \u0160k\u00e1lujem ENERVIT na CZ&SK trhoch. Predtým Alza, GymBeam, EXIsport. 15+ rokov v e-commerce a leadershipe s full P&L zodpovednos\u0165ou.",
+            "Najprv stabilizova\u0165. Potom \u0161k\u00e1lova\u0165. P&L, KPI, WBR \u2014 nie PowerPointy, ale \u010d\u00edsla, ktor\u00e9 sa h\u00fdbu. ENERVIT, Alza, GymBeam, EXIsport. 15 rokov v z\u00e1kopoch e-commerce.",
         },
         sport: {
-          title: "\u0160portov\u00fd \u010dlov\u00e9k",
+          title: "\u0160portovec",
           description:
-            "\u0160port nie je len pr\u00e1ca \u2014 je to \u017eivotn\u00fd \u0161t\u00fdl. Beh, fitness, Ji\u017eersk\u00e1 50. Riadim \u0161portov\u00e9 zna\u010dky, preto\u017ee im rozumiem ako pou\u017e\u00edvate\u013e aj ako mana\u017e\u00e9r.",
+            "\u0160port nie je len pr\u00e1ca \u2014 je to oper\u00e1k. Beh, fitness, Jizersk\u00e1 50. Riadim \u0161portov\u00e9 zna\u010dky, preto\u017ee im rozumiem z oboch str\u00e1n barikat\u00e1dy.",
         },
         ai: {
           title: "AI builder",
           description:
-            "Stav\u00e1m intern\u00e9 n\u00e1stroje, automatiz\u00e1cie a dashboardy. Vibe coding je m\u00f4j sp\u00f4sob ako r\u00fdchlo rie\u0161i\u0165 probl\u00e9my. DONE > PERFECT.",
+            "Ke\u010f m\u00e1m probl\u00e9m, postav\u00edm rie\u0161enie. Intern\u00e9 n\u00e1stroje, hry, dashboardy, automatiz\u00e1cie. V\u0161etko vibe-coded. DONE > PERFECT.",
         },
       },
       stats: {
@@ -48,9 +48,9 @@ export const translations: Record<"sk" | "en", Translations> = {
       present: "s\u00fa\u010dasnos\u0165",
     },
     projects: {
-      title: "\u010co som postavil s AI",
+      title: "Postaven\u00e9 s AI",
       subtitle:
-        "Intern\u00e9 n\u00e1stroje, aplik\u00e1cie a utility, ktor\u00e9 re\u00e1lne pou\u017e\u00edvam. Ka\u017ed\u00fd rie\u0161i konkr\u00e9tny probl\u00e9m.",
+        "\u017diadne dem\u00e1. Ka\u017ed\u00e1 vec tu rie\u0161i re\u00e1lny probl\u00e9m alebo prin\u00e1\u0161a re\u00e1lnu rados\u0165.",
       filter_all: "V\u0161etko",
       categories: {
         "internal-tool": "Intern\u00e9 n\u00e1stroje",
@@ -71,13 +71,13 @@ export const translations: Record<"sk" | "en", Translations> = {
     contact: {
       title: "Spojme sa",
       subtitle:
-        "Spolupr\u00e1ca, konzult\u00e1cia, alebo len v\u00fdmena n\u00e1padov \u2014 ozvite sa.",
+        "Spolupr\u00e1ca, konzult\u00e1cia, n\u00e1pad, alebo len kafe.",
       email_label: "Email",
       connect: "Nap\u00ed\u0161te mi",
     },
     footer: {
-      built_with: "Postaven\u00e9 s AI pomocou",
-      rights: "V\u0161etky pr\u00e1va vyhraden\u00e9.",
+      built_with: "Postaven\u00e9 s AI cez",
+      rights: "",
     },
   },
   en: {
@@ -92,8 +92,8 @@ export const translations: Record<"sk" | "en", Translations> = {
       name: "Juraj Giacko",
       tagline: "Business \u00d7 Sport \u00d7 AI",
       subtitle:
-        "I run sports brands, turn around businesses, and build tools with AI. Currently CEO of VITAR Sport.",
-      cta_projects: "See what I\u2019m building",
+        "I run sports brands. I turn around businesses. I build things with AI. Currently CEO of VITAR Sport.",
+      cta_projects: "What I\u2019ve built",
       cta_contact: "Say hi",
     },
     about: {
@@ -103,17 +103,17 @@ export const translations: Record<"sk" | "en", Translations> = {
         business: {
           title: "Business Operator",
           description:
-            "CEO of VITAR Sport. Scaling ENERVIT across CZ&SK markets. Previously Alza, GymBeam, EXIsport. 15+ years in e-commerce & leadership with full P&L accountability.",
+            "Turnaround first. Scale second. P&L, KPIs, WBR \u2014 not slide decks, but numbers that move. ENERVIT, Alza, GymBeam, EXIsport. 15 years in the trenches of e-commerce.",
         },
         sport: {
-          title: "Sports Person",
+          title: "Athlete",
           description:
-            "Sport isn\u2019t just work \u2014 it\u2019s a lifestyle. Running, fitness, Jizerska 50. I manage sports brands because I understand them as a user and as a manager.",
+            "Sport isn\u2019t just a job \u2014 it\u2019s the operating system. Running, fitness, Jizersk\u00e1 50. I manage sports brands because I understand them from both sides.",
         },
         ai: {
           title: "AI Builder",
           description:
-            "I build internal tools, automations, and dashboards. Vibe coding is my way to solve problems fast. DONE > PERFECT.",
+            "When I have a problem, I build the solution. Internal tools, games, dashboards, automations. All vibe-coded. DONE > PERFECT.",
         },
       },
       stats: {
@@ -127,9 +127,9 @@ export const translations: Record<"sk" | "en", Translations> = {
       present: "present",
     },
     projects: {
-      title: "What I\u2019m building with AI",
+      title: "Built with AI",
       subtitle:
-        "Internal tools, apps, and utilities I actually use. Each one solves a real problem.",
+        "No demos. Every single thing here solves a real problem or brings real joy.",
       filter_all: "All",
       categories: {
         "internal-tool": "Internal Tools",
@@ -150,18 +150,18 @@ export const translations: Record<"sk" | "en", Translations> = {
     contact: {
       title: "Let\u2019s connect",
       subtitle:
-        "Collaboration, consultation, or just exchanging ideas \u2014 reach out.",
+        "Collaboration, consultation, an idea, or just coffee.",
       email_label: "Email",
       connect: "Get in touch",
     },
     footer: {
-      built_with: "Built with AI using",
-      rights: "All rights reserved.",
+      built_with: "Built with AI via",
+      rights: "",
     },
   },
 };
 
-// Career journey - not a CV, just key chapters
+// Career journey - compact chips, not a CV
 export const storyChapters = {
   sk: [
     {
@@ -172,22 +172,22 @@ export const storyChapters = {
     {
       year: "2020\u20132025",
       title: "REDA",
-      description: "4.5 roka. E-commerce director. 20%+ YoY rast tri roky po sebe. Braz\u00edlia a Eur\u00f3pa.",
+      description: "E-commerce director. 20%+ YoY rast tri roky po sebe. Braz\u00edlia a Eur\u00f3pa.",
     },
     {
       year: "2019\u20132020",
       title: "Alza.cz",
-      description: "Sport +65% YoY. Drugstore +85% YoY. T\u00edm 12 \u013eud\u00ed.",
+      description: "Sport +65%, Drugstore +85%. T\u00edm 12 \u013eud\u00ed.",
     },
     {
       year: "2019",
       title: "GymBeam",
-      description: "Interim COO. 1M\u20ac budget. 7-\u010dlenn\u00fd t\u00edm.",
+      description: "Interim COO. \u20ac1M budget.",
     },
     {
       year: "2017\u20132019",
       title: "EXIsport",
-      description: "65% YoY rast. Expanzia CZ & RO. V\u00ed\u0165az MastersGate 2018.",
+      description: "+65% YoY. Expanzia CZ & RO. MastersGate 2018.",
     },
   ],
   en: [
@@ -199,39 +199,39 @@ export const storyChapters = {
     {
       year: "2020\u20132025",
       title: "REDA",
-      description: "4.5 years. E-commerce director. 20%+ YoY growth three years running. Brazil & Europe.",
+      description: "E-commerce director. 20%+ YoY growth three years running. Brazil & Europe.",
     },
     {
       year: "2019\u20132020",
       title: "Alza.cz",
-      description: "Sport +65% YoY. Drugstore +85% YoY. 12-person team.",
+      description: "Sport +65%, Drugstore +85%. 12-person team.",
     },
     {
       year: "2019",
       title: "GymBeam",
-      description: "Interim COO. \u20ac1M budget. 7-person team.",
+      description: "Interim COO. \u20ac1M budget.",
     },
     {
       year: "2017\u20132019",
       title: "EXIsport",
-      description: "65% YoY growth. CZ & RO expansion. MastersGate 2018 winner.",
+      description: "+65% YoY. CZ & RO expansion. MastersGate 2018.",
     },
   ],
 };
 
 export const beliefs = {
   sk: [
-    "Turnaround first. Scale second.",
+    "Najprv stabilizova\u0165. Potom \u0161k\u00e1lova\u0165.",
     "DONE > PERFECT.",
-    "\u0160port nie je len pr\u00e1ca \u2014 je to \u017eivotn\u00fd \u0161t\u00fdl.",
-    "AI nasadzujem tam, kde re\u00e1lne h\u00fdbe v\u00fdsledkami.",
-    "Najlep\u0161\u00ed mana\u017e\u00e9r je ten, ktor\u00fd vie odma\u010dka\u0165 veci aj s\u00e1m.",
+    "\u0160port nie je pr\u00e1ca. \u0160port je operak.",
+    "AI nasadzujem tam, kde to h\u00fdbe \u010d\u00edslami. Nie tam, kde to vyzer\u00e1 cool.",
+    "Najlep\u0161\u00ed mana\u017e\u00e9r vie odma\u010dka\u0165 veci aj s\u00e1m.",
   ],
   en: [
     "Turnaround first. Scale second.",
     "DONE > PERFECT.",
-    "Sport isn\u2019t just work \u2014 it\u2019s a lifestyle.",
-    "I deploy AI where it actually moves the needle.",
-    "The best manager is the one who can roll up their sleeves too.",
+    "Sport isn\u2019t a job. Sport is the operating system.",
+    "I deploy AI where it moves numbers. Not where it looks cool.",
+    "The best manager can roll up their sleeves too.",
   ],
 };
