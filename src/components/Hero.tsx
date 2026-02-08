@@ -31,14 +31,14 @@ export default function Hero() {
               <span className="text-2xl text-zinc-300 font-light select-none">
                 &times;
               </span>
-              <span className="px-4 py-2 bg-emerald-600 text-white rounded-full text-sm font-semibold tracking-wide">
-                Sport
+              <span className="px-4 py-2 bg-violet-600 text-white rounded-full text-sm font-semibold tracking-wide">
+                AI
               </span>
               <span className="text-2xl text-zinc-300 font-light select-none">
                 &times;
               </span>
-              <span className="px-4 py-2 bg-violet-600 text-white rounded-full text-sm font-semibold tracking-wide">
-                AI
+              <span className="px-4 py-2 bg-emerald-600 text-white rounded-full text-sm font-semibold tracking-wide">
+                Sport
               </span>
             </div>
 
