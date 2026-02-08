@@ -13,7 +13,7 @@ export const translations: Record<"sk" | "en", Translations> = {
       name: "Juraj Giacko",
       tagline: "Business \u00d7 Sport \u00d7 AI",
       subtitle:
-        "Riadim \u0161portov\u00e9 zna\u010dky. Transformujem biznisy. Stav\u00e1m veci s AI. Aktu\u00e1lne CEO VITAR Sport.",
+        "Transformujem biznisy. Budujem efekt\u00edvne t\u00edmy. Staviam veci s AI. CEO s builder mindsetom.",
       cta_projects: "\u010co som postavil",
       cta_contact: "Ozvi sa",
     },
@@ -92,7 +92,7 @@ export const translations: Record<"sk" | "en", Translations> = {
       name: "Juraj Giacko",
       tagline: "Business \u00d7 Sport \u00d7 AI",
       subtitle:
-        "I run sports brands. I turn around businesses. I build things with AI. Currently CEO of VITAR Sport.",
+        "I transform businesses. I build effective teams. I build things with AI. CEO with a builder mindset.",
       cta_projects: "What I\u2019ve built",
       cta_contact: "Say hi",
     },
