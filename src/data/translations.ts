@@ -15,7 +15,7 @@ export const translations: Record<"sk" | "en", Translations> = {
       subtitle:
         "Transformujem biznisy. Budujem efekt\u00edvne t\u00edmy. Staviam veci s AI. CEO s builder mindsetom.",
       cta_projects: "Moje AI buildy",
-      cta_contact: "Zosta\u0148 v kontakte",
+      cta_contact: "Zostaňme v kontakte",
     },
     about: {
       title: "M\u00f4j svet",
@@ -71,7 +71,7 @@ export const translations: Record<"sk" | "en", Translations> = {
       view_code: "K\u00f3d",
     },
     contact: {
-      title: "Zosta\u0148 v kontakte",
+      title: "Zostaňme v kontakte",
       subtitle:
         "Spolupr\u00e1ca, konzult\u00e1cia, n\u00e1pad, alebo len kafe.",
       email_label: "Email",
@@ -96,7 +96,7 @@ export const translations: Record<"sk" | "en", Translations> = {
       subtitle:
         "I transform businesses. I build effective teams. I build things with AI. CEO with a builder mindset.",
       cta_projects: "My AI builds",
-      cta_contact: "Stay in touch",
+      cta_contact: "Let's stay in touch",
     },
     about: {
       title: "My World",
@@ -152,7 +152,7 @@ export const translations: Record<"sk" | "en", Translations> = {
       view_code: "Code",
     },
     contact: {
-      title: "Stay in touch",
+      title: "Let's stay in touch",
       subtitle:
         "Collaboration, consultation, an idea, or just coffee.",
       email_label: "Email",
