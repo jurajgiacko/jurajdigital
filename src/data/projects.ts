@@ -158,7 +158,7 @@ export const projects: Project[] = [
       en: "AI system for generating social media content. Style analysis, bilingual SK/EN output, post scheduling. Brand voice on autopilot.",
     },
     category: "utility",
-    tech: ["Claude", "ChatGPT", "Automation"],
+    tech: ["Cursor", "PACT", "Automation"],
     level: 3,
     image: "/images/projects/brand-content-engine.png",
     status: "live",

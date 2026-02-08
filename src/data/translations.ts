@@ -24,7 +24,7 @@ export const translations: Record<"sk" | "en", Translations> = {
         business: {
           title: "Business Operator",
           description:
-            "Výsledky stavám na ľuďoch, procesoch a rozumnej miere AI automatizácie. Turnaround, škálovanie, efektívne tímy — vždy je to o tom nájsť správne ekvilibrium, čo daný projekt vyžaduje. ENERVIT, Alza, GymBeam, EXIsport. 10+ rokov v zákopoch manažmentu a 16+ rokov v e-commerce.",
+            "Výsledky staviam na ľuďoch, procesoch a rozumnej miere AI automatizácie. Turnaround, škálovanie, efektívne tímy — vždy je to o tom nájsť správne ekvilibrium, čo daný projekt vyžaduje. ENERVIT, Alza, GymBeam, EXIsport. 10+ rokov v zákopoch manažmentu a 16+ rokov v e-commerce.",
         },
         sport: {
           title: "Sport focus",
