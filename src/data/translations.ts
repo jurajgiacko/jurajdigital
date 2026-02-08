@@ -27,9 +27,9 @@ export const translations: Record<"sk" | "en", Translations> = {
             "V\u00fdsledky stav\u00e1m na \u013eu\u010foch. Turnaround, \u0161k\u00e1lovanie, efekt\u00edvne t\u00edmy \u2014 v\u017edy to za\u010d\u00edna aj kon\u010d\u00ed pri spr\u00e1vnych \u013eu\u010foch na spr\u00e1vnych miestach. ENERVIT, Alza, GymBeam, EXIsport. 15 rokov v z\u00e1kopoch e-commerce.",
         },
         sport: {
-          title: "\u0160portovec",
+          title: "Sport focus",
           description:
-            "Bav\u00ed ma prepojenie businessu a \u0161portu. Aktu\u00e1lne ENERVIT a RoyalBay pre CZ&SK trh. A najlep\u0161ie na tom? Ke\u010f si v r\u00e1mci pr\u00e1ce m\u00f4\u017eem \u00eds\u0165 zabeha\u0165 alebo na bike.",
+            "Bav\u00ed ma prepojenie businessu a \u0161portu. Aktu\u00e1lne ENERVIT a RoyalBay pre CZ&SK trh. Najlep\u0161ie na tom je ten challenge \u2014 v\u00edkendov\u00fd polmarat\u00f3n? I'm in!",
         },
         ai: {
           title: "AI builder",
@@ -106,9 +106,9 @@ export const translations: Record<"sk" | "en", Translations> = {
             "Results are built on people. Turnarounds, scaling, effective teams \u2014 it always starts and ends with the right people in the right seats. ENERVIT, Alza, GymBeam, EXIsport. 15 years in the trenches of e-commerce.",
         },
         sport: {
-          title: "Athlete",
+          title: "Sport Focus",
           description:
-            "What I love is the intersection of business and sport. Currently ENERVIT and RoyalBay for the CZ&SK market. And the best part? Going for a run or a ride as part of the job.",
+            "I love the intersection of business and sport. Currently ENERVIT and RoyalBay for the CZ&SK market. The best part is the challenge \u2014 weekend half marathon? I'm in!",
         },
         ai: {
           title: "AI Builder",
