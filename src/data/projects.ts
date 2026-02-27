@@ -170,4 +170,45 @@ export const projects: Project[] = [
     image: "/images/projects/juraj-digital.png",
     status: "live",
   },
+
+  // === NEW: AUTOMATIONS & TOOLS ===
+  {
+    id: "b2b-automation",
+    name: "B2B Order Automation",
+    description: {
+      sk: "Automatizácia B2B objednávok. WooCommerce webhook → Make.com → Pohoda XML import. Z 15 minút manuálnej práce na 30 sekúnd. Stock check, notifikácie, error handling. Reálny business impact pre 120+ partnerov.",
+      en: "B2B order automation. WooCommerce webhook → Make.com → Pohoda XML import. From 15 min of manual work to 30 seconds. Stock check, notifications, error handling. Real business impact for 120+ partners.",
+    },
+    category: "internal-tool",
+    tech: ["Make.com", "WooCommerce", "Pohoda XML", "Google Drive"],
+    level: 4,
+    image: "/images/projects/b2b-automation.png",
+    status: "live",
+  },
+  {
+    id: "ad-spend-tracker",
+    name: "Ad Spend Tracker",
+    description: {
+      sk: "Automatický denný tracking výdavkov na reklamu z Google Ads, Meta Ads a Sklik do jedného Google Sheetu. Apps Script + Google Ads Scripts. Dashboard, duplicitná ochrana, error notifikácie. Dve značky, tri platformy, jeden prehľad.",
+      en: "Automated daily ad spend tracking from Google Ads, Meta Ads, and Sklik into one Google Sheet. Apps Script + Google Ads Scripts. Dashboard, duplicate prevention, error notifications. Two brands, three platforms, one overview.",
+    },
+    category: "internal-tool",
+    tech: ["Google Apps Script", "Meta API", "Google Ads", "Sklik API"],
+    level: 4,
+    image: "/images/projects/ad-spend-tracker.png",
+    status: "live",
+  },
+  {
+    id: "email-triage",
+    name: "Email Triage System",
+    description: {
+      sk: "AI-asistovaný email triage. Outlook MCP + Python skript triedi emaily do 4 priečinkov (_ACTION, _FYI, _RECEIPT, _NEWSLETTER) naprieč 3 účtami. Microsoft Graph API, OAuth 2.0. Inbox Zero za 2 minúty.",
+      en: "AI-assisted email triage. Outlook MCP + Python script sorts emails into 4 folders (_ACTION, _FYI, _RECEIPT, _NEWSLETTER) across 3 accounts. Microsoft Graph API, OAuth 2.0. Inbox Zero in 2 minutes.",
+    },
+    category: "utility",
+    tech: ["Python", "Microsoft Graph API", "MCP", "OAuth 2.0"],
+    level: 4,
+    image: "/images/projects/email-triage.png",
+    status: "live",
+  },
 ];
